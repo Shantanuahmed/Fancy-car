@@ -1,0 +1,82 @@
+[
+    {
+        "model": "Jaguar E-Type",
+        "details": "Once called 'the most beautiful car ever made' by Enzo Ferrari, the 1960s Jaguar E-Type is a classic sports car mainstay. 'If you only choose one car from this list to drive, this is the one,' says McKeel Hagerty, CEO of Hagerty, the world's largest provider of collector vehicle insurance",
+        "price": "30000",
+        "year": "2010",
+        "picture": "https://i.ibb.co/rfrZtWz/c12.jpg",
+        "id": "1"
+    },
+    {
+        "model": "Chevrolet Corvette",
+        "details": "The emblem of Big Three muscle cars, the Chevy Corvette is the most collected vehicle in America. The second generation, which spanned 1963 to 1967, is the most iconic American car ever made,' says Keith Martin, publisher of Sports Car Market. 'It's still breathtaking and fresh today'",
+        "price": "39000",
+        "year": "2017",
+        "picture": "https://i.ibb.co/nDrsddV/c1.jpg",
+        "id": "2"
+    },
+    {
+        "model": "Lamborghini Miura",
+        "details": "Considered by some to be the sexiest car ever built, the Miura debuted in 1966 as a sleek mid-engine speedster designed to challenge Ferrari. 'Piloting the Miura transcends driving experience to become a life experience,' Hagerty says. If the sound of six carburetors feeding a thirsty",
+        "price": "42000",
+        "year": "2018",
+        "picture": "https://i.ibb.co/2Ppv7rS/c11.jpg",
+        "id": "3"
+    },
+    {
+        "model": "Rolls-Royce Dawn Drophead",
+        "details": "Based on the first full-size car Rolls-Royce made after the war, the original Silver Dawn drophead launched in 1949 and retired in 1954. The name was intended to mark the dawn of a new era for the world and Rolls-Royce's place in it. Slightly smaller than pre-war cars",
+        "price": "99000",
+        "year": "2020",
+        "picture": "https://i.ibb.co/V9v60PW/c7.jpg",
+        "id": "4"
+    },
+    {
+        "model": "Aston Martin DB4",
+        "details": "The precursor to James Bond's getaway car, the Aston Martin DB4 is an iconic workhorse. The DB4 is a thoroughbred that never gets flustered, Hagerty says. 'I wouldn't hesitate to drive one across the country. It's no wonder that James Bond favored the derivative DB5",
+        "price": "24000",
+        "year": "2000",
+        "picture": "https://i.ibb.co/svwZzMK/c9.jpg",
+        "id": "5"
+    },
+    {
+        "model": "VW Beetle",
+        "details": "A counter-culture classic, the vintage VW Beetle represents simplicity and fun–in other words, motoring at its best. Besides the easy driving experience, the Beetle's friendly exterior attracts people no matter where you're driving, and it seems everyone has their own Beetle story to share",
+        "price": "28000",
+        "year": "2007",
+        "picture": "https://i.ibb.co/xq4bHL0/c2.jpg",
+        "id": "6"
+    },
+    {
+        "model": "Dodge Viper GTS",
+        "details": "The V10 Dodge Viper GTS of the 1990s couldn't be built today. At 450 horsepower, it's every bit as raw as its predecessor, the Shelby Cobra, without anti-lock brakes or traction control to correct driver error. It's the automotive equivalent of whiskey, neat–no pretense, just one hell of an experience",
+        "price": "24000",
+        "year": "2000",
+        "picture": "https://i.ibb.co/FKTp3ty/c4.jpg",
+        "id": "7"
+    },
+    {
+        "model": "McLaren F1",
+        "details": "The McLaren F1 announced the British supercar maker's foray into modern racing when it was unveiled in 1992. Six years later, it set the record for the world's fastest production car, at 242 mph. The McLaren F1 was Formula One legend Gordon Murray's high-tech supercar",
+        "price": "24000",
+        "year": "2000",
+        "picture": "https://i.ibb.co/VVk8Q52/c5.jpg",
+        "id": "8"
+    },
+    {
+        "model": "Cizeta-Moroder V16T",
+        "details": "Built from 1991 to 1995, this Italian-made V16 supercar was originally designed as the Lamborghini Diablo. But when Chrysler purchased a stake in Lamborghini and the Diablo's designers modified the plan, mastermind Marcelo Gandini took his original blueprints to automotive",
+        "price": "24000",
+        "year": "2000",
+        "picture": "https://i.ibb.co/nQ1b6XM/c6.jpg",
+        "id": "9"
+    },
+    {
+        "model": "Acura NSX",
+        "details": "Acura's halo car from 1990 to 2005, the NSX is young but mighty. While it's not as sexy as its European rivals, the Acura NSX showed the rest of the world that supercar specs and daily-driver manners could co-exist, Hagerty says. It inspires confidence and begs you to keep pushing",
+        "price": "36000",
+        "year": "2013",
+        "picture": "https://i.ibb.co/mRc77hr/c3.jpg",
+        "id": "10"
+    }
+]
