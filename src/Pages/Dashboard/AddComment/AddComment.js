@@ -8,7 +8,7 @@ const AddComment = () => {
     const [date, setDate] = React.useState(new Date());
 
     const onSubmit = data => {
-        fetch('http://localhost:5002/ratings', {
+        fetch('https://morning-temple-93757.herokuapp.com/ratings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

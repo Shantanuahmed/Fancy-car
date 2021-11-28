@@ -8,7 +8,7 @@ import ModifyOrders from '../../ModifyOrders/ModifyOrders';
 const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5002/orders')
+        fetch('https://morning-temple-93757.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])

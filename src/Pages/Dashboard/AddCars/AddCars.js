@@ -6,7 +6,7 @@ const AddCars = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5002/cars', {
+        fetch('https://morning-temple-93757.herokuapp.com/cars', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -13,7 +13,7 @@ const Orders = () => {
     const { user } = useAuth();
     const [orders, setOrders] = useState([])
     useEffect(() => {
-        const url = `http://localhost:5002/orders?email=${user.email}`
+        const url = `https://morning-temple-93757.herokuapp.com/orders?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data));

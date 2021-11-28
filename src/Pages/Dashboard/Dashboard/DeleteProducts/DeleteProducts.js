@@ -10,7 +10,7 @@ import { Button } from '@mui/material';
 const DeleteProducts = ({ car }) => {
     const { model, price, picture, details, year, _id } = car;
     const handleDelete = id => {
-        const url = `http://localhost:5002/cars/${id}`
+        const url = `https://morning-temple-93757.herokuapp.com/cars/${id}`
         fetch(url, {
             method: 'DELETE'
         })

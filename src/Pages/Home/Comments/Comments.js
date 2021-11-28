@@ -7,7 +7,7 @@ const Comments = () => {
     const [showRatings, setShowRatings] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5002/ratings')
+        fetch('https://morning-temple-93757.herokuapp.com/ratings')
             .then(res => res.json())
             .then(data => setShowRatings(data))
     }, [])

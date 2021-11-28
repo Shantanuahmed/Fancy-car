@@ -9,7 +9,7 @@ import CarCollection from '../CarCollection/CarCollection';
 const Cars = () => {
     const [cars, setCars] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5002/cars')
+        fetch('https://morning-temple-93757.herokuapp.com/cars')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])

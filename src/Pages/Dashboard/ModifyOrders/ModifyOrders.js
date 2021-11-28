@@ -8,7 +8,7 @@ import { Button } from '@mui/material';
 const ModifyOrders = ({ order }) => {
     const { name, price, email, address, city, phone, model, date, details, year, _id } = order;
     const handleDelete = id => {
-        const url = `http://localhost:5002/orders/${id}`
+        const url = `https://morning-temple-93757.herokuapp.com/orders/${id}`
         fetch(url, {
             method: 'DELETE'
         })

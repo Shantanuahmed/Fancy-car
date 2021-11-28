@@ -8,7 +8,7 @@ import DisplayCar from '../DisplayCar/DisplayCar';
 const DisplayCars = () => {
     const [homeCars, setHomeCars] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5002/display')
+        fetch('https://morning-temple-93757.herokuapp.com/display')
             .then(res => res.json())
             .then(data => setHomeCars(data))
     }, [])

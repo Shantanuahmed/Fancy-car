@@ -13,14 +13,14 @@ const BookingId = () => {
     const { user } = useAuth();
     const [car, setCar] = useState([])
     useEffect(() => {
-        const url = `http://localhost:5002/display/${displayId}`
+        const url = `https://morning-temple-93757.herokuapp.com/display/${displayId}`
         fetch(url)
             .then(res => res.json())
             .then(data => setCar(data))
     }, []);
 
     const onSubmit = data => {
-        fetch('http://localhost:5002/orders', {
+        fetch('https://morning-temple-93757.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
